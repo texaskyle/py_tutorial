@@ -8,7 +8,7 @@
 print(customer.get("birthDate", "14 feb 2001")) #here you can provide the default value if the key is not specified """
 
 
-# example
+""" # example
 phone = input("phone > ")
 
 digits_mapping = {
@@ -22,6 +22,9 @@ digits_mapping = {
 output = ''
 for numbers in phone:
     output += digits_mapping.get(numbers, "!") + " "
-print(output)
+print(output) """
+
+
+
 
       
