@@ -64,21 +64,21 @@ for numbers in [1,2,3,4,5,6,7,8,9]:
 for numbers in range(0,10,3): #this takes a step 
     print(numbers) """
 
-prices = [10, 20, 30, 40, 50]
+"""prices = [10, 20, 30, 40, 50]
 total = 0
 for price in prices:
     total += price
-    print(f"total is: {total}")
+    print(f"total is: {total}")"""
 
 
-# nested loops to generate the cordinates
+"""# nested loops to generate the cordinates
 for x in range(0,4):
     for y in range(0,3):
-        print(f"{x}, {y}")
+        print(f"{x}, {y}")"""
 
 
 
-# example
+"""# example
 numbers = [5, 2, 5, 2, 2]
 for number in numbers:
     print('x' * number)
@@ -89,21 +89,83 @@ for x_count in items:
     for x_count in range(x_count):
         output += 'x'
     print(output)
-
-names = ['john', 'mary', 'kamau', 'lucy', 'evans']
+"""
+"""names = ['john', 'mary', 'kamau', 'lucy', 'evans']
 print(names[4])
 print(names[1:4])
 names[0] = 'texas'
 print(names)
-print(names[0:2])
+print(names[0:2])"""
 
-# a program to find the largest number
+"""# a program to find the largest number
 numbers = [3,5,8,9,2,4]
 max = numbers[0]
 for number in numbers:
     if number > max : 
         max = number
-print(max)
+print(max)"""
+
+
+"""# while loop
+name = ""
+while len(name) == 0:
+    name = input("Enter your name: ")
+
+print(f"your name is: {name}")"""
+
+"""# for loop
+# for i in range(9, 50+1, 2):
+for i in range(10, 15):
+    print(i+1)"""
+
+
+"""name ="evans"
+for i in name:
+    print(i)"""
+
+
+"""# a program for count down
+import time
+for seconds in range(10, 0, -1):
+    print(seconds)
+    time.sleep(1)
+print("happy new year!!" + chr(128516))"""
+
+"""# nested loops
+rows = int(input("Enter the number of rows "))
+columns = int(input("Enter the number of columns "))
+symbol = input("Enter the symbol to use ")
+
+for i in range(rows):
+    for j in range(columns):
+        # print(symbol, end="")
+        print(chr(128516), end="")
+    print()"""
+
+"""# loop control statement
+while True:
+    name = input("Enter your name: ")
+    if name != "":
+        # break is used to terminate the loop entirely
+        break"""
+
+"""phone_number = "123-456-789-0"
+for i in phone_number:
+    if i == "-":
+        # continue skips to the next iteration of the loop
+        continue
+    print(i, end="")"""
+
+for i in range(1, 10):
+    if i == 5:
+        # pass does nothing and acts a s the placeholder
+        pass
+    else:
+        print(i)
+
+
+
+
 
 
 

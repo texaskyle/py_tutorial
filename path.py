@@ -15,5 +15,6 @@ print(path.rmdir())"""
 path = Path()
 for file in path.glob('*.py'):
     print(file)
+    print(type(file))
 
 

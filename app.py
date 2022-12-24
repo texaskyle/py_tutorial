@@ -68,6 +68,52 @@ print(10**3) #it gives out the power
 print(round(10/3)) #performs the rounding off
 print(abs(-4.5)) #it always returns a positive value """
 
-import math
+"""import math
 print(math.lcm(5,10,3))
-print(math.gcd(5,10,3))
+print(math.gcd(5,10,3))"""
+
+"""age = 21
+name = "evans kiarie"
+print(f"{name} your age is {age}")
+# print(name+ " your age is " + str(age))"""
+
+"""spongebob = patric = kibui = tomas = 30
+print(tomas)"""
+
+"""name = "evans kiarie"
+# print(len(name))
+# print(name.find('ns'))
+# print(name.count("a"))
+# print(name.replace('e', 'i'))
+# print(name.upper())
+# print(name.lower())
+# print(name.capitalize())
+# print(name*3)
+# print(name.isdigit())"""
+
+"""try:
+    name = input("What is your name? ")
+    age = int(input("What is your age? "))
+    # age = int(age)
+    age += 1
+    print(f"{name} your age rn is  {age}")
+except ValueError:
+    print('age can only be of int data type!!')"""
+
+
+"""# slicing
+company = "texas company"
+# print(company[0])
+# print(company[0:len(company)])
+# print(company[0:])
+# print(company[:])
+# print(company[0 : len(company) : 2])
+# print(company[0 : len(company) : 3])"""
+
+# using slice which is kinda diffrent from indexing
+website1 = "http://google.com"
+website2 = "http://amazom.com"
+slice = slice(7, -4)
+print(website1[slice])
+print(website2[slice])
+print(website2[7:-4])

@@ -72,5 +72,21 @@ elif kg_or_pounds.lower() == "l":
 else:
     print('invalid character') """
 
+try:
+    age = int(input("What is your age: "))
+    if 18 <= age <= 30:
+        print("your are in the youth stage")
+    elif 30 < age < 100:
+        print("you are an adult")
+    elif 18 > age:
+        print("you are a child")
+    elif age >= 100:
+        print("you are a century years old")
+    else:
+        print("you have entered an incorrect age")
+except ValueError:
+    print('Age can only be of int type!!')
+
+
 
 
