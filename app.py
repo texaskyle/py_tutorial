@@ -110,10 +110,17 @@ company = "texas company"
 # print(company[0 : len(company) : 2])
 # print(company[0 : len(company) : 3])"""
 
-# using slice which is kinda diffrent from indexing
+"""# using slice which is kinda diffrent from indexing
 website1 = "http://google.com"
 website2 = "http://amazom.com"
 slice = slice(7, -4)
 print(website1[slice])
 print(website2[slice])
-print(website2[7:-4])
+print(website2[7:-4])"""
+
+# using index
+name = "evans kiarie"
+if name[0].islower():
+    # name = name.capitalize()
+    name = name[0:5].upper()
+print(name)

@@ -44,7 +44,7 @@ result = volume(length=5, width=4, height=2)
 print(result) """
 
 
- # reusable functions
+"""# reusable functions
 def emojies_converter(message):
     words = message.split(' ')
     emojies = {
@@ -60,7 +60,31 @@ def emojies_converter(message):
 
 message = input(">") 
 result = emojies_converter(message)
-print(result)
+print(result)"""
+
+
+"""def hello(name, age):
+    print("hello !!!" + name)
+    print("you are age: " + age)
+
+
+hello("evans", str(23))"""
+
+
+"""def multiply(num1, num2):
+    return num1 * num2
+
+
+print(multiply(2, 7))"""
+
+
+"""# key word arguments
+def my_names(first, last, middle):
+    print("hello " + first + " " + middle + " " + last)\
 
 
 
+my_names(middle="kiarie", last="njoroge", first="evans")"""
+
+
+print(round(abs(float(input("Enter a positive number: ")))))
