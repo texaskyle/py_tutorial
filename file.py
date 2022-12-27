@@ -20,7 +20,7 @@ except FileNotFoundError:
     print("This file was not found!!!")"""
 
 
-"""text = "am in fouth year!!"
+"""text = "am in forth year!!"
 with open('text.txt', 'w') as file:
     file.write(text)"""
 
@@ -77,8 +77,8 @@ import shutil
 # path_dir = 'empty_folder'
 path = 'folder'
 try:
-    # os.rmdir(path) #removes only an empty file directory
-    #     shutil.rmtree(path) #removes the folder and its content
+     # os.rmdir(path) #removes only an empty file directory
+    # shutil.rmtree(path) #removes the folder and its content
 except PermissionError:
     print("You do not have the permission to delete this!!!")
 except FileNotFoundError:
