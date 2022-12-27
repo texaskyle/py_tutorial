@@ -1,0 +1,4 @@
+using 'w' will overwrite the file!
+using 'a' wont overwrite the file 
+ it was nice knowing the using 'a' doesn't overwrite the file 
+ nice progress 

@@ -87,4 +87,31 @@ def my_names(first, last, middle):
 my_names(middle="kiarie", last="njoroge", first="evans")"""
 
 
-print(round(abs(float(input("Enter a positive number: ")))))
+"""print(round(abs(float(input("Enter a positive number: ")))))"""
+
+"""# using args
+def addition(*args):
+    sum = 0
+    args = list(args)
+    args[0] = 4
+    for number in args:
+        sum += number
+    return sum
+
+
+print(addition(3, 5, 6, 7, 8))"""
+
+
+"""# using kwargs
+def my_names(**kwargs):
+    print('hello ', end=" ")
+    for key, value in kwargs.items():
+        print(value, end=" ")
+my_names(title= 'Mr.', first ="evans", second ="kiarie", last ="kamau")"""
+
+
+pi = 3.1476859
+number = 3000333
+print(f"The number is {pi:.2f}")
+print(f"The number is {number:,}")
+print(f"The number is {number:b}")
