@@ -105,7 +105,14 @@ def display_score(correct_guesses, guesses):
     print(f"Your score is: {score} %")
 # --------------------------------
 def play_again():
-    pass
+    response = input("Do you want to play again? (yes or no): ")
+    response = response.upper()
+
+    if response == "YES":
+        return True
+    else:
+        return False
+
 # --------------------------------
 
 
@@ -125,6 +132,10 @@ options = [["A. Guido van Rossum", "B. Elon Musk", "C. Bill Gates", "D. Mark Zuc
 
 
 new_game()
+
+while play_again():
+    new_game()
+print("Byee..it was nice seeing you play")
 
 
 
