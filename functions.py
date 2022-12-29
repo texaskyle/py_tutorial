@@ -110,8 +110,65 @@ def my_names(**kwargs):
 my_names(title= 'Mr.', first ="evans", second ="kiarie", last ="kamau")"""
 
 
-pi = 3.1476859
+"""pi = 3.1476859
 number = 3000333
 print(f"The number is {pi:.2f}")
 print(f"The number is {number:,}")
-print(f"The number is {number:b}")
+print(f"The number is {number:b}")"""
+
+# high orderfunctions
+# ----------------------------------------------
+
+
+def loud(text):
+    return text.upper()
+
+
+"""def quite(text):
+    return text.lower()
+
+
+def hello(func):
+    text = func("hello")
+    print(text)
+
+
+hello(loud)
+hello(quite)"""
+
+"""# returning a function
+
+
+def divisor(x):
+    def dividend(y):
+        return y / x
+    return dividend
+
+
+divide = divisor(2)
+print(divide(10))"""
+
+
+# lambda function
+# -------------------------------------------------
+"""def double(x):
+    return x * 2
+
+print(double(3))"""
+
+
+double = lambda y: y * 2
+print(double(5))
+multiply = lambda x, y: x * y
+print(multiply(4, 6))
+volume = lambda x, y, z: x * y * z
+print(volume(3, 4, 5))
+
+names = lambda first_name, last_name: first_name + " " + last_name
+print(names("Evans", "Njoroge"))
+
+check_age = lambda age:True if age >= 18 else False
+print(check_age(42))
+
+
+

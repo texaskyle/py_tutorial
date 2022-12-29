@@ -69,7 +69,7 @@ print(food_list)
 print(food_list[0])
 print(food_list[2][1])"""
 
-# tuple are very similar to list
+"""# tuple are very similar to list
 student = ("evans", 21, "male")
 print(student.count("evans"))
 print(student.index("male"))
@@ -80,5 +80,43 @@ if "evans" in student:
     print("Evans is a student!")
 else:
     print("may be he is a civilian")
+"""
+
+# sorting in list
+"""students = ["Evans", "keziah", "lucy", "uhuru", "Ruto"]
+students.sort(reverse = True)
+for i in students:
+    print(i)"""
+
+# sorting in tuple
+"""students = ("Evans", "keziah", "lucy", "uhuru", "Ruto")
+sorted_students = sorted(students, reverse=True)
+for i in sorted_students:
+    print(i)"""
+
+# sorting by key
+"""students = [("Evans", "C", 21),
+            ("uhuru", "F", 60),
+            ("Ruto", "E", 46),
+            ("keziah", "B", 10),
+            ("lucy", "A", 17)]
+
+students.sort()
+for i in students:
+    print(i)
+
+grade = lambda grades: grades[1]
+students.sort(key= grade)
+for i in students:
+    print(i)
+
+age = lambda ages: ages[2]
+students.sort(key= age)
+for i in students:
+    print(i)"""
+
+
+
+
 
 
