@@ -43,5 +43,8 @@ capital_city.pop("russia")
 for key, value in capital_city.items():
     print(key, value)"""
 
+# dictionary comprehension
 
-      
+
+
+

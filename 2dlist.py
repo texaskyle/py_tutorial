@@ -115,8 +115,24 @@ students.sort(key= age)
 for i in students:
     print(i)"""
 
+# list comprehension
+# --------------------------------------------------
+# square = []
+"""for i in range(1,11):
+    square.append(i * i)
+print(square)"""
 
+"""square = [i * i for i in range(1, 11)]
+print(square)"""
 
+"""grades = [100, 90, 80, 70, 60, 50, 40, 30, 0]
+lambda grade: grade >=60
+passed_students = list(filter(lambda grade: grade >= 60, grades))
+for i in passed_students:
+    print(i, end=" ")
+
+passed_students = [i for i in grades if i >= 60]
+print(passed_students)"""
 
 
 
