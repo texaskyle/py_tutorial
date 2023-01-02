@@ -10,7 +10,7 @@ window.config(background="blue")
 # adding a photo to a label
 photo = PhotoImage(file='C:\\Users\\charles\\Pictures\\images.png')
 
-label = Label(window,text="Texas",
+label = Label(window, text="Texas",
               font=("Arial", 40, "bold"),
               fg='green', #color of the font
               bg="black", # background color of the label
