@@ -14,11 +14,14 @@ def order():
 
 def add_item():
     listbox.insert(listbox.size(), entry_box.get())
+    entry_box.delete(0, END)
     listbox.config(height=listbox.size())
 
 
 def delete_item():
-    listbox.delete(listbox.curselection())
+    for index in reversed(listbox.curselection()):
+        listbox.delete(index)
+
     listbox.config(height=listbox.size())
 
 
@@ -29,7 +32,6 @@ listbox = Listbox(window,
                   font=('Constantia', 30),
                   width=12,
                   selectmode=MULTIPLE)
-listbox.pack()
 
 # inserting items in a list box
 listbox.insert(1, "pizzah")
@@ -40,13 +42,15 @@ listbox.insert(5, 'nyama')
 
 listbox.config(height=listbox.size())
 
+listbox.pack()
+
 # entry box for inserting items in a listbox
 entry_box = Entry(window)
 entry_box.pack()
 
 add_button = Button(window,
                     text='Add',
-                    command=add_item
+                    command=add_item,
                     )
 add_button.pack()
 delete_button = Button(window,
@@ -57,7 +61,7 @@ delete_button.pack()
 
 
 submit_button = Button(window,
-                       text='submit',
+                       text='Order',
                        command=order)
 submit_button.pack()
 

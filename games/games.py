@@ -5,7 +5,7 @@ import random
 """messages.hello("Evans")
 messages.bye("safaricom")"""
 
-"""
+
 while True:
     def results():
         print("computer: " + computer)
@@ -46,17 +46,17 @@ while True:
     play_again = input("play again? yes/ no: ").lower()
     if play_again != "yes":
         break
-print("Bye")"""
+print("Bye")
 
 
-
+ 
 
 
 # --------------------------------
 # a quiz game
 
 
-def new_game():
+"""def new_game():
 
     guesses = []
     correct_guess = 0
@@ -135,7 +135,7 @@ new_game()
 
 while play_again():
     new_game()
-print("Byee..it was nice seeing you play")
+print("Byee..it was nice seeing you play")"""
 
 
 
