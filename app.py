@@ -18,9 +18,9 @@ print(name)
 print(age)
 print(is_new_patient) """
 
-""" # a program that prompts the user to enter his/her name
+# a program that prompts the user to enter his/her name
 first_name = input('what is your  name? ')
-print('hi '+first_name) """
+print('hi '+first_name)
 
 """ full_name = input('what is your full name? ')
 color = input('what is your favourite color? ')
@@ -118,9 +118,9 @@ print(website1[slice])
 print(website2[slice])
 print(website2[7:-4])"""
 
-# using index
+"""# using index
 name = "evans kiarie"
 if name[0].islower():
     # name = name.capitalize()
     name = name[0:5].upper()
-print(name)
+print(name)"""
