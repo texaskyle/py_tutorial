@@ -29,7 +29,7 @@ def clear():
 
 
 window = Tk()
-window.geometry('500x500')
+window.geometry('425x425')
 
 equation_text = ""
 equation_label = StringVar()
@@ -74,7 +74,7 @@ button0.grid(row=3, column=0)
 decimal_button = Button(frame, text=".", height=4, width=9, command=lambda: button_press('.'))
 decimal_button.grid(row=3, column=1)
 
-equals_button = Button(frame, text="=", height=4, width=9, command=equals)
+equals_button = Button(frame, text="=", height=4, width=9, bg='red', relief='raised', command=equals)
 equals_button.grid(row=3, column=2)
 
 plus_button = Button(frame, text="+", height=4, width=9, command=lambda: button_press('+'))
