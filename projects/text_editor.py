@@ -20,7 +20,9 @@ def new_file():
 
 
 def open_file():
-    file_path = filedialog.askopenfilename(defaultextension='.txt', filetypes=[
+    file_path = filedialog.askopenfilename(defaultextension='.txt',
+                                           initialdir="C:\\Users\\charles\\Desktop",
+                                           filetypes=[
         ("text documents", ".txt"),
         ("all, files", "*.*"),
         ("html", ".html")
